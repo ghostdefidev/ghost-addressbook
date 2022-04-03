@@ -1343,6 +1343,17 @@ const _tokens = {
     chainId: 250,
     logoURI: 'https://www.ghostdefi.io/ghost200.png',
   },
+  GSHARE: {
+    name: 'Ghostdefi Shares',
+    address: '0x5BadadD7aFff73687596793173257cC69A82bd76',
+    symbol: 'GSHARE',
+    decimals: 18,
+    website: 'https://www.ghostdefi.io/',
+    description:
+      'An algorithmic stablecoin on the Fantom Opera blockchain, pegged to the price of 1 FTM.',
+    chainId: 250,
+    logoURI: 'https://www.ghostdefi.io/gshare200.png',
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;
