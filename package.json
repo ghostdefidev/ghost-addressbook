@@ -9,7 +9,7 @@
     "build/util/",
     "build/types/"
   ],
-  "repository": "beefyfinance/beefy-api",
+  "repository": "https://github.com/ghostdefidev/ghost-addressbook",
   "license": "MIT",
   "scripts": {
     "compile": "tsc",
